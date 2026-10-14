@@ -5,7 +5,7 @@ body {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     font-family: "Montserrat", sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: #e4dddd;
     color: #222;
 }
 
@@ -14,21 +14,44 @@ header {
     text-align: center;
      background-color: #222;
     color: ghostwhite;
-
 }
 
+header p {
+    color: ghostwhite;
+    font-size: 1.2em;
+    margin: 1;
+    font-weight: 600;
+
+}
 h1 {
     color: rgb(220, 197, 20);
-    font-size: 3em;
-    margin: 0
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
 }
 
-header p{
-    font-size: 1.2em;
+nav {
+    text-align: center;
+    background-color: #afa50b;
+    padding: 14px;
 }
+
+nav a {
+    color: #f1ecec;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: rgb(182, 185, 11);
+}
+
 main {
     padding: 30px;
     margin: auto;
+    background-color: #d3d012;
 }
 
 section {
@@ -39,14 +62,54 @@ section {
 
 h2 {
     font-size: 1.5rem;
+    color : black;
 }
-
 
 p{
     line-height: 1.5;
 }
 
-footer {
+ul {
+    line-height: 1.9;
+}
+
+ol {
+    line-height: 1.9;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.mentida{
+    background-color: #ededb8;
+;
     padding: 20px;
+    margin-bottom: 16px;
+}
+
+.mentida h3{
+    color: #d48129;
+    margin-top: 0;
+}
+
+#estatus{
+    background-color: #171717;
+    color: ghostwhite;
+}
+
+#estatus h2{
+    color: rgb(220, 197, 20);
+}
+
+footer {
+    background-color: rgb(182, 185, 11);
+    color: ghostwhite;
     text-align: center;
+    padding: 24px;
+}
+
+footer p {
+    font-weight: 700;
+    margin: 0;
 }
